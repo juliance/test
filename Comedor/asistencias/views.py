@@ -5,7 +5,6 @@ from django.db.models import Q
 from models import *
 import datetime
 
-# Create your views here.
 
 def get_string(p_iValue, p_lArray):
     for v,k in p_lArray:
